@@ -1,11 +1,10 @@
 name: Learning GitHub Script
 
 on:
-  pull_request:
-    branches:
-    - main
+
   issues:
-    types: [opened]
+    types:  
+      - opened
 
 jobs:
   comment:
