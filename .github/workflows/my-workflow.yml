@@ -3,10 +3,6 @@ name: Learning GitHub Script
 on:
   issues:
     types: [opened]
-  push:
-    branches: [ test ]
-  pull_request:
-    branches: [ test ]
 
 jobs:
   comment:
